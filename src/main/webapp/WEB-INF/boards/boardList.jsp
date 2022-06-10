@@ -28,10 +28,15 @@
 			<tr>
 				<td>${list.id }</td>
 				<td>${list.author }</td>
-				<td>${list.title }</td>
+				<td><a href="detail/${list.id}">${list.title }</a></td>
 				<td>${list.createdDate }</td>
 			</tr>
 		</c:forEach>
+		<tr>
+			<td colspan="4" align="right">
+				<input type="button" value="글쓰기" onclick="">
+			</td>
+		</tr>
 	</table>
 </body>
 </html>

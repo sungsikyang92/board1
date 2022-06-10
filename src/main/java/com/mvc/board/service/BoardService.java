@@ -5,5 +5,7 @@ import java.util.List;
 import com.mvc.board.dto.BoardDto;
 
 public interface BoardService {
-	public List<BoardDto> getAllBoardList();
+	List<BoardDto> getAllBoardList();
+	List<BoardDto> getBoardDetailById(int id);
+	
 }

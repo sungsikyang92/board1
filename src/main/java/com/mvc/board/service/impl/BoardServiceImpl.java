@@ -19,5 +19,10 @@ public class BoardServiceImpl implements BoardService{
 		List<BoardDto> list = boardDao.getAllBoardList();
 		return list;
 	}
+	@Override
+	public List<BoardDto> getBoardDetailById(int id) {
+		List<BoardDto> list = boardDao.getBoardDetailById(id);
+		return list;
+	}
 
 }
