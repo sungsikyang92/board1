@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>게시목록</title>
 </head>
 <body>
 	<h1> 게시판 목록 </h1>
@@ -34,7 +34,7 @@
 		</c:forEach>
 		<tr>
 			<td colspan="4" align="right">
-				<input type="button" value="글쓰기" onclick="">
+				<input type="button" value="글쓰기" onclick="location.href='writeButton'">
 			</td>
 		</tr>
 	</table>

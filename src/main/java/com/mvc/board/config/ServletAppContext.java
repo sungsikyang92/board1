@@ -33,7 +33,7 @@ public class ServletAppContext implements WebMvcConfigurer{
 	@Override
 	public void addViewControllers(final ViewControllerRegistry registry) {
 		System.out.println("addViewControllers가 호출됩니다. ");
-		registry.addViewController("/").setViewName("index");
+		registry.addViewController("/").setViewName("boardList");
 	}
 
 	@Override

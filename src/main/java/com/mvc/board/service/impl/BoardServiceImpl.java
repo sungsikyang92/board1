@@ -24,5 +24,20 @@ public class BoardServiceImpl implements BoardService{
 		List<BoardDto> list = boardDao.getBoardDetailById(id);
 		return list;
 	}
+	@Override
+	public int insertToBoard(BoardDto boardDto) {
+		int result = boardDao.insertToBoard(boardDto);
+		return result;
+	}
+	@Override
+	public int updateBaord(BoardDto boardDto) {
+		int result = boardDao.updateBaord(boardDto);
+		return result;
+	}
+	@Override
+	public int deleteBoard(int id) {
+		int result = boardDao.deleteBoard(id);
+		return result;
+	}
 
 }

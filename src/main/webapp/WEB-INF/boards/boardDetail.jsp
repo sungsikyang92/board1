@@ -22,8 +22,8 @@
 		</tr>
 		<tr>
 			<td colspan="2" align="right">
-				<input type="button" value="수정" onclick="location.href=''">
-				<input type="button" value="삭제" onclick="location.href=''">
+				<input type="button" value="수정" onclick="location.href='/updateButton/${detail_id}'">
+				<input type="button" value="삭제" onclick="location.href='/deleteButton/${detail_id}'">
 				<input type="button" value="목록" onclick="location.href='/'">
 			</td>
 		</tr>
